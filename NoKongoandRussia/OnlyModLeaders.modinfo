@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="a4c5c4c2-44d8-42d4-a866-66f9588eb305" version="1">
+	<Properties>
+		<Name>No Kongo and Russia</Name>
+		<Teaser/>
+		<Description>Disables Russia and Kongo.</Description>
+		<Authors>username4</Authors>
+		<ShowInBrowser>Show</ShowInBrowser>
+	</Properties>
+	<Components>
+		<UpdateDatabase id="OnlyModLeaders">
+			<Items>
+				<File>OnlyModLeaders.sql</File>
+			</Items>
+		</UpdateDatabase>			
+	</Components>
+	<Settings>
+		<Custom id="OnlyModLeaders_menu">
+		    <Properties>
+                <LoadOrder>1000</LoadOrder>
+            </Properties> 	
+			<Items>
+				<File>OnlyModLeadersMenu.sql</File>
+			</Items>
+		</Custom>	
+    </Settings>
+	<Files>
+		<File>OnlyModLeadersMenu.sql</File>
+		<File>OnlyModLeaders.sql</File>		
+	</Files>
+</Mod>
+
+

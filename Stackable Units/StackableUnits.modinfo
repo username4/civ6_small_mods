@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="2e198a59-2ab9-4c69-8ab9-66afc013ea39" version="1">
+	<Properties>
+		<Name>Stackable Units</Name>
+		<Teaser/>
+		<Description>Makes Land and Sea Units stackable</Description>
+		<Authors>username4</Authors>
+		<ShowInBrowser>Show</ShowInBrowser>
+	</Properties>
+	<Components>
+		<UpdateDatabase id="StackableUnits">
+			<Items>
+				<File>StackableUnits.sql</File>
+			</Items>
+		</UpdateDatabase>
+	</Components>
+	<Files>
+		<File>StackableUnits.sql</File>
+	</Files>
+</Mod>

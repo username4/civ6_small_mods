@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="eb522672-381d-4f96-aaab-65d3f65c23c4" version="1">
+	<Properties>
+		<Name>DLC trait to basegame leader</Name>
+		<Teaser/>
+		<Description>Adds a DLC trait to a basegame leader and </Description>
+		<Authors>username4</Authors>
+		<ShowInBrowser>Show</ShowInBrowser>
+	</Properties>
+	<Components>
+		<UpdateDatabase id="DLC_to_Base">
+			<Items>
+				<File>DLC_to_Base.xml</File>
+			</Items>
+		</UpdateDatabase>			
+	</Components>
+	<!--
+	<Settings>
+		<Custom id="DLC_to_Base">
+		    <Properties>
+                <LoadOrder>100</LoadOrder>
+            </Properties> 	
+			<Items>
+				<File>DLC_to_Base.xml</File>
+			</Items>
+		</Custom>	
+    </Settings>
+    -->
+	<Files>
+		<File>DLC_to_Base.xml</File>		
+	</Files>
+</Mod>
+
+

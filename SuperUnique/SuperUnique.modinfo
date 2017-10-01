@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="SuperUnique" version="1">
+	<Properties>
+		<Name>SuperUnique</Name>
+		<Teaser/>
+		<Description>SuperUnique</Description>
+		<Authors>username4</Authors>
+		<ShowInBrowser>Show</ShowInBrowser>
+	</Properties>
+	<Components>
+		<UpdateDatabase id="SuperUniquef">
+			<Items>
+				<File>SuperUnique.sql</File>
+				<File>SuperUniqueText.sql</File>
+			</Items>
+		</UpdateDatabase>
+	</Components>
+	<Files>
+		<File>SuperUnique.sql</File>
+		<File>SuperUniqueText.sql</File>
+	</Files>
+</Mod>
