@@ -9,6 +9,9 @@
 	</Properties>
 	<Components>
 		<UpdateDatabase id="DLC_to_Base">
+		    <Properties>
+                <LoadOrder>100</LoadOrder>
+            </Properties> 				
 			<Items>
 				<File>DLC_to_Base.xml</File>
 			</Items>
@@ -16,12 +19,12 @@
 	</Components>
 	<!--
 	<Settings>
-		<Custom id="DLC_to_Base">
+		<Custom id="DLC_to_Base_Menu">
 		    <Properties>
                 <LoadOrder>100</LoadOrder>
             </Properties> 	
 			<Items>
-				<File>DLC_to_Base.xml</File>
+				<File>DLC_to_Base_Menu.xml</File>
 			</Items>
 		</Custom>	
     </Settings>

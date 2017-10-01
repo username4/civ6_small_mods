@@ -3,4 +3,7 @@
     <CivilizationTraits>
         <Row CivilizationType="CIVILIZATION_JAPAN" TraitType="TRAIT_CIVILIZATION_LEGEND_FIVE_SUNS"/>
     </CivilizationTraits>
+    <Units>
+		<Row UnitType="UNIT_JAPANESE_SAMURAI" RangedCombat="30"/>
+	</Units>
 </GameInfo>
