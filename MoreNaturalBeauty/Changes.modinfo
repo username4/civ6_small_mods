@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Mod id="410d1dd4-1324-4e8f-bdc0-6f3f696ba62" version="4">
-	<Properties>
-		<Name>More Natural Beauty</Name>
-		<Teaser>Increases Natural Wonder Spawn</Teaser>
-		<Description>Increases the number of Natural Wonders on a map and decreases the distance between Natural Wonders.</Description>
-		<Authors>Flying Dutchman</Authors>
-	</Properties>
+  <Properties>
+    <Name>More Natural Beauty</Name>
+    <Teaser>Increases Natural Wonder Spawn</Teaser>
+    <Description>Increases the number of Natural Wonders on a map and decreases the distance between Natural Wonders.</Description>
+    <Authors>Flying Dutchman</Authors>
+  </Properties>
 
     <!-- Files included -->
-	<Files>
-		<File>Code.sql</File>
-	</Files>
+  <Files>
+    <File>Code.sql</File>
+  </Files>
 
     <!-- Different parts of the mod -->
-	<Components>
-		<UpdateDatabase id="MoreNaturalBeauty">
+  <Components>
+    <UpdateDatabase id="MoreNaturalBeauty">
       <Properties>
         <!-- Load after YNAMP -->
-				<LoadOrder>10700</LoadOrder>
+        <LoadOrder>10700</LoadOrder>
       </Properties>  
-			<Items>
- 				<File>Code.sql</File>
-			</Items>
-		</UpdateDatabase>
-	</Components>
+      <Items>
+         <File>Code.sql</File>
+      </Items>
+    </UpdateDatabase>
+  </Components>
 </Mod>
