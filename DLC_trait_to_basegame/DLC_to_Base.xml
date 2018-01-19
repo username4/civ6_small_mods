@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <GameInfo>
     <CivilizationTraits>
-        <Row CivilizationType="CIVILIZATION_JAPAN" TraitType="TRAIT_CIVILIZATION_LEGEND_FIVE_SUNS"/>
+        <Row CivilizationType="CIVILIZATION_JAPAN" TraitType="TRAIT_CIVILIZATION_LEGEND_FIVE_SUNS" />
     </CivilizationTraits>
     <Units>
-		<Row UnitType="UNIT_JAPANESE_SAMURAI" RangedCombat="30"/>
-	</Units>
+        <Row UnitType="UNIT_JAPANESE_SAMURAI" RangedCombat="30" />
+    </Units>
 </GameInfo>
